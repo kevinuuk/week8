@@ -1,0 +1,172 @@
+@import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@300..700&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap');
+
+
+:root {
+    --primary-color: #333333;
+    --primary-light: #fff4e6;
+    --muted-black: #5C5C5C;
+    --muted-gray: #8E8E8E; 
+    --heading-font: "Roboto", sans-serif;
+    --body-font: "Roboto", sans-serif;
+    --link-font: "Quicksand", sans-serif;
+
+
+}
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+body {
+    background-color: var(--primary-light);
+    font-family: var(--body-font);
+    color: var(--primary-color);
+}
+
+.container {
+    width: 60%;
+    margin: 0 auto;
+}
+
+header {
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: repeat(2, auto);
+    width: 100%;
+
+}
+
+header h1 {
+    font-family: var(--heading-font);
+    font-weight: 900;
+    font-size: 32px;
+    padding: 1rem 0;
+}
+
+.image-container {
+    width: 100%;
+    height: auto;
+}
+
+.main {
+    width: 100%;
+    height: auto;
+}
+
+.education-title {
+    font-size: 30px;
+    margin: 1.2rem auto;
+    line-height: 1.5;
+}
+.education {
+    margin: 2rem auto;
+}
+
+.education p {
+        line-height: 1.8rem;
+        
+}
+.ed-date {
+    color: var(--muted-black);
+}
+.ed-title {
+    color: var(--primary-color);
+    font-weight: 700;
+}
+
+.workexperience-title {
+    font-size: 30px;
+    margin: 1.2rem auto;
+    line-height: 1.5;
+}
+.workexperience {
+    margin: 2rem auto;
+}
+.workexperience p {
+    line-height: 1.8rem;
+}
+.workexperience-text {
+    color: var(--muted-black);
+}
+.work-heading {
+    font-weight: 700;
+    color: var(--primary-color);
+}
+.work-date {
+    color: var(--muted-gray);
+}
+
+
+.technicalskills-title {
+    font-size: 30px;
+    margin: 1.2rem auto;
+    line-height: 1.5;
+}
+
+.technicalskills-title {
+    margin: 2rem auto;
+}
+.technicalskills p {
+    line-height: 1.8rem;
+}
+.technicalskills-text {
+    color: var(--muted-black);
+}
+.skill-heading {
+    font-weight: 700;
+    color: var(--primary-color);
+
+}
+
+hr {
+    border: none;
+    height: 2px;
+    border-top: 2px solid var(--primary-color);
+    border-radius: 10px;
+    width: 324px;
+    margin: 0 auto;
+    margin-top: 2rem;
+    
+}
+
+footer {
+    width: 60%;
+    margin: 3rem auto;
+    text-align: center;
+    font-family: "Quicksand", sans-serif;
+}
+
+.social-media-list {
+        list-style: none;
+}
+.social-media-list {
+    display: grid;
+    grid-template-columns: repeat(1, 3fr);
+    margin: 0 auto;
+}
+
+.social-media-list li i {
+    font-size: 3rem;
+    color: #5C5C5C;
+}
+.social-media-list a {
+  color: var(--muted-black);
+  font-size: 35px;
+  text-decoration: none;
+}
+
+.social-media-list a:hover {
+  color: var(--muted-black);
+}
+.social-media-list p {
+    line-height: 2rem;
+}
+
+.thanks {
+    margin-top: 2rem;
+}
+.thanks-text {
+    font-weight: 600;
+}
