@@ -50,10 +50,23 @@ header h1 {
     height: auto;
 }
 
+img {
+  max-width: 100%;
+  height: auto;
+  object-position: 50% 30%;
+  transition: opacity 0.5s ease-in-out;
+}
+
+.cv-image img {
+    width: 400px;
+    height: 400px;
+    object-fit: cover;
+}
 .main {
     width: 100%;
     height: auto;
 }
+
 
 .education-title {
     font-size: 30px;
